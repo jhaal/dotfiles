@@ -1,0 +1,19 @@
+ls
+pwd
+cd
+cd
+cd
+cd
+ls
+cd OpenFOAM/MyCodes/c++/
+ls
+cd ..
+cc
+clear
+
+ls
+ cd
+cd OpenFOAM/MyCodes/C_Program/
+ls
+icc hello.c -o hello
+exit

@@ -1,0 +1,335 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/sudo:root@24Online:/usr/share/images/" . "desktop-base/")
+ ("/sudo:root@24Online:/usr/" . "share/")
+ ("/sudo:root@24Online:/" . "usr/")
+ ("/sudo::/etc/" . "default/")
+ ("/sudo::/" . "etc/")
+ ("/ssh::/etc/" . "apt/")
+ ("/ssh::/" . "etc/")
+ ("/home/user01/LATEX/ANS_Annual_Meeting_2019_R1/" . "response/")
+ ("/home/user01/LATEX/FCCAL/" . "FCT_NET_R01/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168..1.3:/var/www/html/RPI_TV/images/" . "weathericons/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168..1.3:/var/www/html/RPI_TV/" . "images/")
+ ("/ssh:pi@192.168.1.3|sudo:192.168..1.3:/var/www/html/" . "RPI_TV/")
+ ("/ssh:pi@192.168.1.3|sudo:192.168..1.3:/var/www/" . "html/")
+ ("/ssh:pi@192.168.1.3|sudo:192.168..1.3:/var/" . "www/")
+ ("/ssh:pi@192.168.1.3|sudo:192.168..1.3:/" . "var/")
+ ("/sudo:root@192.168.1.3:/var/www/html/" . "RPI_TV/")
+ ("/home/user01/LATEX/book/" . "devnagri/")
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/data/" . "IPHWR_proc/")
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/" . "data/")
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/" . "Dragon/")
+ ("/home/user01/dragon/dragon.v.5/" . "Version5_beta_ev3/")
+ ("/home/user01/dragon/Version5_beta_ev801/Dragon/data/" . "twlup_proc/")
+ ("/home/user01/dragon/Version5_beta_ev801/Dragon/" . "data/")
+ ("/home/user01/dragon/Version5_beta_ev801/" . "Dragon/")
+ ("/home/user01/dragon/" . "dragon.v.5/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/pencil_wise/" . "system/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/lumped_fuel/constant/" . "polyMesh/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/lumped_fuel/" . "system/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/postProcessing/singleGraph/" . "0.25/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/etc/caseDicts/postProcessing/" . "probes/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/etc/caseDicts/" . "postProcessing/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/etc/" . "caseDicts/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/postProcessing/" . "probes/")
+ ("/home/user01/cfwaro/smfollow/" . "html/")
+ ("/home/user01/LATEX/ANS_Trans_template_7_3_2018/" . "sample/")
+ ("/home/user01/LATEX/CFD/" . "TRIVENI-OpenFOAM-NED/")
+ ("/" . "home/")
+ ("/home/user01/cfwaro/" . "smfollow/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/constant/" . "polyMesh/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/" . "0/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/" . "pencil_wise/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/" . "cavityTemp/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/" . "icoFoamTemp/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/" . "mySolvers/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/" . "solvers/")
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/" . "applications/")
+ ("/home/user01/.emacs.d/" . "customization/")
+ ("/sudo:root@192.168.1.3:/var/www/" . "html/")
+ ("/sudo:root@192.168.1.3:/var/" . "www/")
+ ("/sudo:root@192.168.1.3:/home/pi/.config/lxsession/" . "LXDE-pi/")
+ ("/sudo:root@192.168.1.3:/home/pi/.config/" . "lxsession/")
+ ("/sudo:root@192.168.1.3:/home/pi/" . ".config/")
+ ("/sudo:root@192.168.1.3:/home/" . "pi/")
+ ("/sudo:root@192.168.1.3:/" . "var/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168.1.3:/var/www/html/" . "RPI_TV/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168.1.3:/var/www/" . "html/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168.1.3:/var/" . "www/")
+ ("/home/user01/LATEX/" . "test/")
+ ("/home/" . "user01/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168.1.3:/home/pi/.config/lxsession/" . "LXDE-pi/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168.1.3:/home/pi/.config/" . "lxsession/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168.1.3:/home/" . "pi/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168.1.3:/" . "home/")
+ ("/home/user01/Downloads/" . "test/")
+ ("/home/user01/Downloads/way2sms/" . "Way2SMS-API-master/")
+ ("/ssh:pi@192.168.1.3|sudo:root@192.168.1.3:/home/pi/" . ".config/")
+ ("/ssh:pi@192.168.1.3|sudo:192.168.1.3:/var/www/html/" . "RPI_TV/")
+ ("/ssh:pi@192.168.1.3|sudo:192.168.1.3:/var/www/" . "html/")
+ ("/ssh:pi@192.168.1.3|sudo:192.168.1.3:/var/" . "www/")
+ ("/ssh:pi@192.168.1.3|sudo:192.168.1.3:/" . "etc/")
+ ("/home/user01/OpenFOAM/MyCodes/" . "c++/")
+ ("/home/user01/OpenFOAM/" . "MyCodes/")
+ ("/home/user01/OpenFOAM/MyCodes/c++/" . "steadyTestbench/")
+ ("/home/user01/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/user01/"
+ "/home/user01/.emacs.d/customization/"
+ "/home/user01/.emacs.d/"
+ "/home/user01/.config/"
+ "/home/user01/.i3/"
+ "/home/user01/OpenFOAM/MyCodes/c++/steadyTestbench/"
+ "/home/user01/Downloads/"
+ "/home/user01/.nano/"
+ "/home/user01/OpenFOAM/MyCodes/c++/python/"
+ "/home/user01/OpenFOAM/MyCodes/c++/Scratch_work/"
+ "/sudo:root@24Online:/usr/share/images/desktop-base/"
+ "/sudo::/etc/default/"
+ "/home/user01/OpenFOAM/MyCodes/C_Program/"
+ "/:ssh:"
+ "/ssh::/etc/apt/"
+ "/ssh:pi@192.168.1.3|sudo:root@192.168.1.3:/var/www/html/RPI_TV/"
+ "/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/pencil_wise/"
+ "/home/user01/dotfiles/"
+ "/ssh:24Online:/etc/X11/xinit/"
+ "/home/user01/.emacs.d/desktop/"
+ "/sudo:root@24Online:/etc/grub.d/"
+ "/home/user01/LATEX/test/"
+ "/home/user01/LATEX/FCCAL/FCT_NET_R01/"
+ "/home/user01/LATEX/CFD/TRIVENI-OpenFOAM-NED/"
+ "/home/user01/LATEX/CFD/TRIVENI-OpenFOAM-NET_R1/"
+ "/home/user01/Downloads/xoj_numbering_scripts/"
+ "/home/user01/LATEX/ANS_Annual_Meeting_2019_R1/response/"
+ "/home/user01/LATEX/ANS_Annual_Meeting_2019_R1/"
+ "/home/user01/LATEX/FCCAL/response/"
+ "/home/user01/Documents/"
+ "/home/user01/LATEX/CFD/response/"
+ "/home/user01/LATEX/FCCAL/FCT_NET/"
+ "/ssh:pi@192.168.1.3|sudo:"
+ "/ssh:pi@192.168.1.3|sudo:root@192.168..1.3:/var/www/html/RPI_TV/"
+ "/ssh:pi@192.168.1.3|sudo:192.168..1.3:/var/www/html/RPI_TV/"
+ "/home/user01/OpenFOAM/MyCodes/c++/steadyTeshbench/"
+ "/home/user01/cfwaro/smfollow/"
+ "/home/user01/LATEX/book/"
+ "/sudo:root@192.168.1.3:/var/www/html/RPI_TV/"
+ "/home/user01/LATEX/book/devnagri/"
+ "/home/user01/TRIVENI-OpenFOAM/"
+ "/home/user01/LATEX/CFD/"
+ "/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/data/IPHWR_proc/"
+ "/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/data/"
+ "/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/data/IPHWR/"
+ "/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/data/twlup_proc/"
+ "/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/Linux_x86_64/"
+ "/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/pencil_wise/system/"
+ "/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/lumped_fuel/system/"
+ "/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/lumped_fuel/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "minimap.el"
+ "clang.el"
+ "browser.el"
+ "myDef.el"
+ "keybindings.el"
+ "paren.el"
+ "autocomplete.el"
+ "init.el.bak"
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/user01/" (23730 7735 470519 475000) ".fzf/" ".gimp-2.8_PS/" ".jupyter/" "rsync_server_admin" ".fontconfig/" "intel/" ".gnome/" ".hdfview2.9" ".oracle_jre_usage/" ".root_hist" "cfwaro/" ".dbus/" ".viminfo" ".gphoto/" ".vimrc" "../" ".ssh/" ".themes/" ".install4j" ".gnupg/" ".vim/" ".81vim/" ".visit/" ".i3_bak/" ".bashrc" ".gnome2/" ".swt/" ".masterpdfeditor/" ".screenlayout/" ".fonts.conf" ".saves/" ".mozilla/" "Results_Mar-2017/" ".gitconfig" ".xournal/" ".local/" ".selected_editor" ".emacs.d/" ".hdfview2.11" "BEAMER/" ".nvidia-settings-rc" ".codeintel/" ".jigdo-lite" ".gnome2_private/" ".audacity-data/" ".nano/" ".i3/" ".dropbox-dist/" "SALOME-8.3.0-DB08/" ".python_history" "anaconda3/" ".grsync/" ".thumbnails/" ".kde_bak/" ".cache/" "Downloads/" ".eclipse/" ".bash_logout" ".goodvim/" ".ipython/" ".friendship/" ".astropy/" ".icons/" ".ddd/" ".goodEMACS.d/" ".fehbg" ".QtWebEngineProcess/" ".subversion/" ".dmrc" ".gksu.lock" "Desktop/" "darkskyapi" ".directory" "Data_and_Plots/" "diskmount.sh" "wacomScale" ".xsession-errors" ".pdfstudio12/" "update.sh" "Videos/" ".smex-items" "Pictures/" ".gconf/" ".gnuplot_history" ".codelite/" ".OpenFOAM/" ".texlive2016/" ".gtk-bookmarks" ".mplayer/" ".vnc/" ".idlerc/" "Documents/" ".jackdrc" "dragon/" ".pylint.d/" ".uuid" ".installjammerinfo/" ".gtkrc-2.0.mine" ".profile" ".Xauthority" ".Xresources" ".emacs" ".java/" ".kde/" "anaconda2/" ".gstreamer-0.10/" "visit/" "workspace/" ".wget-hsts" "LATEX/" ".pyFoam/" "OpenFOAM/" ".ICEauthority" "Music/" ".goodvimrc" ".bash_aliases" ".config/" ".cups/" "./" "Public/" ".inputrc" ".gtkrc-2.0" ".recently-used" ".pki/" ".aptitude/" ".conda/" ".xsession-errors.old" ".bash_history" "Imaging-1.1.7/" ".gimp-2.8/" ".nv/")
+
+ ("/home/user01/.emacs.d/customization/" (23730 3972 425535 947000) "config.el" "header2.el" "header.el" "header_self.el" "myDef.el" "../" "autocomplete.el" "keybindings.el" "desktop.el" "browser.el" "clang.el" "themes.el" "latexmode.el" "minimap.el" "config.org" ".abbrev_defs" "paren.el" "./")
+
+ ("/home/user01/.emacs.d/" (23730 3203 727433 322000) "irony/" "auto-save-list/" "irony-mode/" "recentf" "templates/" "../" "init.el.bak" "org-ac/" "customization/" ".python-environments/" ".mc-lists.el" "projectile-bookmarks.eld" "clues-theme.el" "init.el~" "elpa/" "neotree/" "desktop/" "url/" "games/" "ac-comphist.dat" "eshell/" ".authinfo.gpg" "network-security.data" "tramp" "./" "snippets/" "ido.last")
+
+ ("/home/user01/.emacs.d/desktop/" (23730 1252 791753 698000) "lock" "../" "emacs.desktop" "./")
+
+ ("/home/user01/.config/" (23729 65499 394808 129000) "touchpadrc" "akonadi/" "bluedevilglobalrc" "neofetch/" "startupconfig" "gwenviewrc" "menus/" "pulse/" "akonadi_akonotes_resource_0rc" "akonadi_maildir_resource_0rc" "filetypesrc" "startupconfigfiles" "../" "evince/" "user-dirs.locale" "baloofileinformationrc" "konsolerc" "bluedevil.notifyrc" "akonadi_ical_resource_0rc" "systemmonitorrc" "Texmakerrc" "baloorc" "emailidentities" "vlc/" "libreoffice/" "filelightrc" "Code Industry/" "specialmailcollectionsrc" "gtkrc-2.0" "Trolltech.conf" "katepartrc" "katemetainfos" "Notepadqqrc" "baloofilerc" "Code/" "kfontviewrc" "startupconfigkeys" "kdeglobals" "katerc" "org.kde.gwenviewrc" "xm1/" "kolourpaintrc" "arkrc" "spotify/" "Thunar/" "autostart/" "spectaclerc" "inkscape/" "Clementine/" "akonadi-migrationrc" "salome/" "kwalletrc" "gtk-2.0/" "dolphinrc" "session/" "fontconfig/" "xfce4/" "print-manager" "user-dirs.dirs" "systemsettingsrc" "emaildefaults" "enchant/" "trashrc" "dragonplayerrc" "QtProject.conf" "obs-studio/" "kritarc" "sublime-text-3/" "mailtransports" "gtk-3.0/" "kactivitymanagerdrc" "drkonqirc" "akonadi-firstrunrc" "mpv/" "dconf/" "gtkrc" "discoverrc" "./" "mimeapps.list" "etcher-electron/" "autostart-scripts/" "google-chrome/" "pavucontrol.ini" "libglabels/" "dmenu-extended/" "ParaView/" "Mendeley Ltd./" "bleachbit/" "katevirc" "atril/")
+
+ ("/home/user01/.nano/" (23729 51996 630773 712000) ".nanorc" "../" "nanorc-master/" "search_history" "./")
+
+ ("/home/user01/Downloads/" (23729 64144 378216 993000) "JOINT CSIR-UGC TEST FOR J.R.F AND ELIGIBILITY FOR LECTURESHIP.pdf" "dmenu-extended-master/" "../" "nanorc-master/" "OrgMode_tutorial_Rainer_Konig/" "OrgMode_tutorial/" "download_youtube" "mitcfd.glabels" "slac-pub-6480.pdf" "nanorc-master.zip" "nihms780794.pdf" "Neutron Collision Theory.pdf" "./" "benchmark_problem_7326.pdf")
+
+ ("/home/user01/OpenFOAM/MyCodes/c++/steadyTestbench/" (23729 48549 51564 103000) "plot.sh" "test.cpp" "xsec" "../" "nomenclature" "data.txt" "steadyTest.cpp" "makefile" "steadyTest.cpp.bak" "xsec1" "./" "ccomp" "steadyTest")
+
+ ("/home/user01/Documents/" (23727 25158 307351 302000) "Theory_of_Neutron_slowing_down_in_Nuclear_Reactors-Ferziger.pdf" "../" "Nuclear__Reactor_Analysis.pdf" "UnicodeText_Latex_Tutorial.pdf" "auto/" "2006_Wilcox_Turbulence-modeling-for-CFD.pdf" ".directory" "The Latex Companion-2Ed_2004.pdf" "intel_fortran_serial_number.txt" "Oodhav_Realty_reciept.pdf" "SOP_NITIKA.pdf" "Computational_Methods_of_ Neutron_Transport-Lewis-Miller1.pdf" "nitika_NET.pdf" "manual.pdf" "relay" "Accuracy of the Quasistatic Treatment of Spatial Reactor Kinetics.pdf" "./")
+
+ ("/home/user01/OpenFOAM/MyCodes/C_Program/" (23724 58902 854386 27000) "ins.c" "../" "test.c" "hello" "makefile" "hello.c" "./")
+
+ ("/home/user01/.i3/" (23719 39162 152965 906000) "../" "config.bak" "temperature.sh" "i3blocks.conf" "rofi.bak" "i3blocks.conf.bak" "config" "./" "rofi")
+
+ ("/home/user01/dotfiles/" (23715 31005 225167 895000) ".vimrc" "../" ".vim/" ".bashrc" ".emacs.d/" ".i3/" ".git/" ".Xauthority" ".bash_aliases" ".config/" "./")
+
+ ("/home/user01/LATEX/CFD/" (23673 16937 575193 331000) "TRIVENI-OpenFOAM-NED.zip" "NET2018_697.pdf" "../" "08-03-2018 CTM T# 4.pdf" "cover_letter - CFD.docx" "response/" "CFD_paper/" "TRIVENI-OpenFOAM-NED.tex" "CFD_paper.zip" "TRIVENI-OpenFOAM-NET/" "Desktop.rar" "Text File" "TRIVENI_OpenFOAM-FIG-NED/" "TRIVENI-OpenFOAM-NED/" "TRIVENI_OpenFOAM-FIG-NET/" "./" "Instrumentation & Control (Computer System).pdf")
+
+ ("/home/user01/LATEX/book/" (23662 51118 421858 15000) "book.lof" "../" "devnagri/" "dedication.tex" "foreword.tex" "book.pdf" "chapter1.aux" "preface.aux" "foreword.aux" "title.aux" "sloka.aux" "chapter1.tex" "auto/" "book.toc" "book.synctex.gz" "sloka.tex" "title.log" "preamble.tex" "chapter2.aux" "chapter2.tex" "book.lot" "chapter3.aux" "preface.tex" "title.tex" "book.log" "book.tex" "./" "dedication.aux" "appendix-a.aux" "appendix-a.tex" "book.out" "book.aux" "chapter3.tex")
+
+ ("/home/user01/LATEX/FCCAL/response/" (23681 8697 804458 36000) "../" "response.synctex.gz" "referencesFCCAL.bib" "response.log" "response.out" "auto/" "response.tex" "response.bbl" "response.pdf" "./" "response.blg" "response.aux")
+
+ ("/home/user01/LATEX/ANS_Annual_Meeting_2019_R1/" (23673 17569 810032 393000) "ANS_annual_meeting-2019.synctex.gz" "residual2_1.pdf" "residual1_1.pdf" "ANS_annual_meeting-2019.log" "../" "residual1.png" "sidemesh.png" "residual2_1.png" "ANS_annual_meeting-2019.aux" "t20ms.png" "ANS_annual_meeting-2019.out" "t3s.png" "residual2.png" "response/" "t0s.png" "t1s.png" "auto/" "ANS_annual_meeting-2019.pdf" "anstrans.cls" "sample/" "ANS_annual_meeting-2019.bbl" "t7s.png" "comments_reviewer" "endface.png" "fuel.jpg" "t4s.png" "meshred.png" "residual1_1.png" "ANS_annual_meeting-2019.blg" "t10s.png" "./" "ans.bst" "bibliography.bib" ".gitignore" "meshblack.png" "ANS_annual_meeting-2019.tex" "t5s.png")
+
+ ("/home/user01/LATEX/CFD/TRIVENI-OpenFOAM-NED/" (23673 16890 755565 278000) "TRIVENI-OpenFOAM-NED.blg" "reference.txt" "TRIVENI-OpenFOAM-NED.pdf" "../" "highlights.aux" "highlights.tex" "quarter.png" "e6plot.jpeg" "TRIVENI-OpenFOAM-NED.log" "sidemesh.png" "t3s.png" "ct_pt.png" "zcc.png" "residual2.png" "t0s.png" "t1s.png" "TRIVENI-OpenFOAM-NED.synctex.gz" "TRIVENI-OpenFOAM-NED.tex" "TRIVENI-OpenFOAM-NED.spl" "auto/" "ar.png" "highlights.log" "residual.png" "highlights.synctex.gz" "highlights.pdf" "expand.png" "ctm.png" "foamscheme.png" "TRIVENI-OpenFOAM-NED.aux" "tempprofile.png" "t4s.png" "meshred.png" "referencesCFD.bib" "./" "TRIVENI-OpenFOAM-NED.out" "TRIVENI-OpenFOAM-NED.bbl" "meshblack.png" "salome.png" "t5s.png")
+
+ ("/home/user01/LATEX/FCCAL/FCT_NET_R01/" (23681 8519 102350 700000) "references.txt" "fig5_1.png" "FPSTfccal100FP.png" "../" "elsarticle.cls" "FCCAL-NET.aux" "references.bib" "referencesFCCAL.bib" "compuo2puo.png" "auto/" "fig4.png" "FCCAL-NET.tex" "thuo2.png" "FCTfccal50FP.png" "triveni100FP.png" "FCCAL-NET.blg" "FCCAL-NET.pdf" "FCCAL-NET.bbl" "FPSTfccal50FP.png" "FCTfccal100FP.png" "FCCAL-NET.synctex.gz" "fig5.png" "avgCoolantFCCAL50FP.png" "./" "FCCAL-NET.spl" "FCCAL-NET.out" "FCCAL100FP.png" "FCCAL-NET.log" "avgCoolantTRIVENI50FP.png" "comp.png")
+
+ ("/home/user01/LATEX/test/" (23683 46803 778285 519000) "../" "test.aux" "test.log" "auto/" "test.tex" "test.out" "test.pdf" "./" "test.synctex.gz")
+
+ ("/home/user01/LATEX/" (23683 35013 795500 311000) "ANS_Trans_template_7_3_2018.zip" "elsevier/" "../" "book/" "ANS_Annual_Meeting_2019_R1.zip" "FCCAL/" "auto/" "ANS_Trans_template_7_3_2018/" "CFD/" "ANS_Annual_Meeting_2019_1/" "ANS_Annual_Meeting_2019/" "ANS_Annual_Meeting_2019.zip" "ANS_Annual_Meeting_2019_R1/" "thesis_1/" "./" "test/" "cover_letters/")
+
+ ("/home/user01/LATEX/CFD/TRIVENI-OpenFOAM-NET_R1/" (23673 12074 112655 365000) "TRIVENI-OpenFOAM-NET.blg" "reference.txt" "TRIVENI-OpenFOAM-NET.aux" "../" "quarter.png" "e6plot.jpeg" "sidemesh.png" "t3s.png" "ct_pt.png" "zcc.png" "residual2.png" "TRIVENI-OpenFOAM-NET.bbl" "t0s.png" "t1s.png" "auto/" "TRIVENI-OpenFOAM-NET.tex" "TRIVENI-OpenFOAM-NET.out" "ar.png" "TRIVENI-OpenFOAM-NET.pdf" "residual.png" "expand.png" "ctm.png" "TRIVENI-OpenFOAM-NET.synctex.gz" "foamscheme.png" "TRIVENI-OpenFOAM-NET.spl" "tempprofile.png" "t4s.png" "meshred.png" "referencesCFD.bib" "./" "meshblack.png" "TRIVENI-OpenFOAM-NET.log" "salome.png" "t5s.png")
+
+ ("/home/user01/Downloads/xoj_numbering_scripts/" (23664 5495 118058 350000) "../" "xojnumber.py" "xojunnumber.py" "./")
+
+ ("/home/user01/LATEX/ANS_Annual_Meeting_2019_R1/response/" (23662 51962 145120 206000) "../" "response.synctex.gz" "title.aux" "response.log" "response.out" "auto/" "title.log" "response.tex" "response.bbl" "title.tex" "response.pdf" "./" "response.blg" "response.aux")
+
+ ("/home/user01/LATEX/FCCAL/" (23641 48421 752370 364000) "../" "FCT_NET.zip" "FCT_NET/" "response/" "FCT_paper.zip" "FCT-FIG-NET/" "FCT-FIG-NET.zip" "Text File" "Spread Sheet Document" "./" "FCT_paper/" "subTRIVENI" "FCT_NET_R01/")
+
+ ("/home/user01/LATEX/FCCAL/FCT_NET/" (23641 49972 834362 890000) "references.txt" "fig5_1.png" "FPSTfccal100FP.png" "../" "test.png" "FCCAL-NET.aux" "references.bib" "referencesFCCAL.bib" "fig4_1.png" "compuo2puo.png" "auto/" "FCCAL-NET.tex" "thuo2.png" "FCTfccal50FP.png" "triveni100FP.png" "FCCAL-NET.blg" "FCCAL-NET.pdf" "FCCAL-NET.bbl" "FPSTfccal50FP.png" "FCTfccal100FP.png" "FCCAL-NET.synctex.gz" "fig5.png" "avgCoolantFCCAL50FP.png" "./" "FCCAL-NET.spl" "FCCAL-NET.out" "FCCAL100FP.png" "FCCAL-NET.log" "avgCoolantTRIVENI50FP.png" "comp.png")
+
+ ("/home/" (22776 55118 571141 287000) "../" "user01/" "./")
+
+ ("/home/user01/LATEX/CFD/response/" (23621 54343 937997 132000) "../" "response.synctex.gz" "response_to_reviewer.pdf" "zcc.png" "response.log" "response.out" "auto/" "ar.png" "response.tex" "expand.png" "./" "response.aux")
+
+ ("/home/user01/OpenFOAM/MyCodes/c++/" (23620 5168 670098 952000) "python/" "../" "coolant_temp_calculator/" "steadyTestbench/" ".git/" ".cproject" ".directory" "Temp_Cal_Parts/" ".vscode/" ".project" "./" "Scratch_work/" ".gitignore")
+
+ ("/home/user01/OpenFOAM/MyCodes/c++/steadyTeshbench/" (23619 12034 249062 587000) "xsec" "../" "steadyTest.cpp" "./" "ccomp")
+
+ ("/home/user01/OpenFOAM/MyCodes/c++/Scratch_work/" (23619 11514 725704 138000) "T" "coolantTemp" "raddegconv1.cpp" "fuel_cent_temp.cpp" "raddegconv" "fuel_pen_temp" "../" "fuel_temp_complete.cpp" "LHR_calc.cpp" "raddegconv.cpp" "tRead.cpp" "coolantTemp.cpp" "tRead" "makefile" ".directory" "fraction_done.cpp" "addressCalculator" "tempconv.cpp" ".vscode/" "fuel_cent_temp_cal.cpp" "addressCalculator.cpp" "loop_doneICPC" "fuel_pen_temp.cpp" "hello.cpp" "fuel_cent_temp_cal" "./" "test" "fuel_temp_prof_corr" "steadyTest" "loop_done.cpp")
+
+ ("/home/user01/LATEX/cover_letters/" (23617 60330 812317 20000) "cfd.synctex.gz" "Cover_Letter.pdf" "FCCAL_COver_Letter.synctex.gz" "../" "FCCAL_COver_Letter.log" "cfd.aux" "cfd.log" "cfd_original.tex" "auto/" "FCCAL_COver_Letter.aux" "FCCAL_COver_Letter.pdf" "cover_letter.pdf" "cfd.tex" "./" "FCCAL_COver_Letter.tex")
+
+ ("/home/user01/OpenFOAM/" (23045 56590 922206 102000) "../" "MyCodes/" "user01-2.4.0/" "OpenFOAM-2.4.0/" "ThirdParty-2.4.0/" "OpenFOAM-4.1/" "user01-4.1/" "./" "ThirdParty-4.1/")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/" (23609 59563 18598 402000) "gnuplot_script" "residuals.eps" "../" "FoamRun" "gnuplottest" "phwr540_37.unv" "constant/" "EnSight/" "Temperature_Evolution_With_Time.eps" "system/" "0/" "gnuplot_T" "5/" "log" "logs/" "postProcessing/" "Mesh_1.unv" "multiplot.eps" "new_PHWR540.foam" "./")
+
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/Linux_x86_64/" (23609 59516 27100 557000) "Fil_SAL47" "xsec" "../" "Reg6F_pp_reg.ps" "burn" "Fil_SAL" "testrho.c2m" "Fil_SAL44" "Fil_SAL45" "Reg6F_pp7.ps" "Fic_SAL32" "Reg6F_pp8.ps" ".directory" "tmacro.result" "fuelGeometry.xlsx" "tdraglib.result" "Fil_SAL07" "isotope_data" "Fil_SAL02.tp" "salmacro.result" "test05_pp.ps" "Reg6F_pp_ref.ps" "Reg6F_pp9.ps" "figures/" "Reg6F1_pp.ps" "density" "./" "twlup.result" "Reg6F_pp.ps" "Fil_SAL43" "IPHWR.result" "Reg6F_pp6.ps")
+
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/data/" (23609 59624 149940 31000) "rep900_mco_proc/" "IPHWR.access" "UOX_TBH_eighth_1level_proc/" "../" "tjeff31gx_proc/" "tmatxs7a_proc/" "te6wlib_proc/" "tapollo2_proc/" "proc_CNG/" "trowland_shem295_proc/" "twimsE_proc/" "IPHWR.save" "run_procedures/" "trowland_shem361_proc/" "CFC-CELL_proc/" "proc_LZC/" "twlup_proc/" "IPHWR_proc/" "tdraglib_proc/" "trowland_proc/" "tapollo1_proc/" "salmacro_proc/" "./" "trowland_shem_proc/" "IPHWR.x2m" "C2D20_proc/" "twinfrith_proc/" "tmacro_proc/")
+
+ ("/home/user01/cfwaro/smfollow/" (23609 55297 446092 87000) "tape22" "CFCOM" "density.py" "WXEtape6-imp" "fct_results/" "../" "TRIVENI_CTemp.py" "output" "TOpenDragon.py" "BundP" "NOXEtape6-imp" "cfwaroFCT" "test_prog/" "dragonRun.sh" "testrho.c2m" "FCOMP" "Xenon" "DRAGON_RUN.pyc" "TRIVENI_OpenFOAM.py" "APPEND" "docTOP.py" ".directory" "plotUtility.py" "ChRef" "WXEtape6-orig" "tape17" "SuplOut" "NOXEtape6-orig" "html/" "tape26" "FCT_ITER" "Images/" "TRIVENI_FTemp.py" "Burnup" "WXEtape6" "latex/" "DRAGON_RUN.py" "TRIVENI_RUN.py" "tape18" "log.txt" "prog/" "./" "probe_locations" "tape5" "NOXEtape6" "__pycache__/" "SFSBCOMP" "ICMS_CH_LIST")
+
+ ("/home/user01/OpenFOAM/MyCodes/" (23222 32976 208493 758000) "../" "Reactor_Data_Mar-2017/" "HTML_CSS/" "c++/" "C_Program/" "fortran/" "./" "git_passkey")
+
+ ("/home/user01/LATEX/book/devnagri/" (23601 48756 879287 271000) "../" "test.aux" "test.log" "sloka.dn" "sloka.tex" "test.tex" "sample.dn" "test.pdf" "./" "test.synctex.gz")
+
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/data/IPHWR_proc/" (23590 12355 454139 820000) "../" "dragonRun.sh" "PHWR_pp.c2m" "PHWR_pencil.c2m" "IPHWRLib1.c2m" "rho.c2m" "IPHWRLib.c2m" "IPHWRtest.c2m" "./" "timer.py")
+
+ ("/home/user01/TRIVENI-OpenFOAM/" (23595 31963 724291 998000) "../" "docTOP.py" "readme.org" "html/" "Images/" "./" "readme.md")
+
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/data/twlup_proc/" (23586 8034 210233 329000) "TCWU09.c2m" "TCWU01.c2m" "IPHWR01.c2m" "NTCWU05.c2m" "TCWU07.c2m" "TCWU14.c2m" "../" "NTCWU06.c2m" "TCWU03.c2m" "TCWU05Lib1.c2m" "TCWU02.c2m" "TCWU06.c2m" "TCWU05.c2m" "TCWU31.c2m" "PHWR_pp.c2m" "TCWU15.c2m" "TCWU08.c2m" "TCWU17Lib.c2m" "PHWR_pencil.c2m" "TCWU10.c2m" "TCWU05Lib.c2m" "TCWU41.c2m" "TCWU04.c2m" "TCWU13.c2m" "rho.c2m" "TCWU12.c2m" "IPTCWU06.c2m" "TCWU15T.c2m" "IPHWR.c2m" "TCWU17.c2m" "IPHWRLib.c2m" "TCWU11.c2m" "IPHWRtest.c2m" "./")
+
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/data/IPHWR/" (23586 8844 145559 546000) "../" "PHWR_pp.c2m" "PHWR_pencil.c2m" "rho.c2m" "IPHWRLib.c2m" "IPHWRtest.c2m" "./")
+
+ ("/home/user01/dragon/" (23581 3162 733050 916000) "../" "dragon.v.5/" "Version5_beta_ev801/" "WLUP/" "DRAGON306O/" "./" "V_5_documents/")
+
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/src/" (23122 19461 521090 274000) "SALACG.f90" "USSDRV.f" "LIBDRB.f" "MCTLDC.f" "FLUDRV.f" "INFAPL.f" "NXTTNS.f" "PIJRNL.f" "NXTIRA.f" "SYB4TN.f" "LIBEAI.f" "EVOMU1.f" "EDIPRR.f" "LIBCOM.f" "MOCCAL.f" "LIBLAG.f" "PIJXL3.f" "NXTMCC.f" "DMAGET.f" "XCWSCL.f" "FMTDFD.f" "NXTQSC.f" "XELTS2.f" "NXTHRS.f" "XELTI3.f" "MCGDDDF.f" "XELPRC.f" "EDIDEL.f" "NXTCUA.f" "SAPGEP.f" "XCWICL.f" "NXTBCG.f" "SYBEUR.f" "BIVAF.f" "NXTMCD.f" "NXTLDP.f" "PIJKST.f" "MCGDSP.f" "COMPAV.f" "NXTCVS.f" "PSPMCP.f" "SYBRHL.f" "MCGTMT.f" "ASMDRV.f" "XDREXP.f" "g2s_g2mc.f90" "NXTRTL.f" "MCGSCES.f" "LIBCMB.f" "EVOSIG.f" "KELRNG.f" "SYBJJ2.f" "SPHDRV.f" "MCTCTR.f" "MCGDSCE.f" "XDRHT2.f" "NXTLSN.f" "LIBMIX.f" "EDIBAL.f" "SYBRIJ.f" "SNQU10.f" "MOCFFIS.f" "EDILUM.f" "MACOPT.f" "PIJS3D.f" "g2s_lecture.f90" "READMT.f" "SPHBIV.f" "EPCRMU.f" "SNTT2D.f" "COMACR.f" "FMTDFL.f" "XELPSI.f" "LIBBAS.f" "LIBND7.f" "CPOREM.f" "COMSDB.f" "MCGPRA.f" "SAPCAT.f" "NUMER3.f" "USSFLU.f" "SNFT1P.f" "NXTQRN.f" "g2s_pretraitement.md9" "XL3NTR.f" "MACNFI.f" "g2s_generatingSAL.f90" "NXTGET.f" "EDIMCN.f" "SYB32C.f" "NXTTCR.f" "LIBA25.f" "FLUKEF.f" "TLMPLP.f" "MACUPD.f" "LIBA23.f" "NXTITA.f" "MAC.f" "TLMGEO.f" "LIBTER.f" "XELTCW.f" "PIJSMD.f" "MCTGET.f" "LIBOMG.f" "NXT3T2.f" "SAPSPH.f" "COMGEN.f" "MCGFMC.f" "INFWIM.f" "MCTALLY.f" "SPHTRA.f" "USSIT1.f" "NXTTRS.f" "LIBEWR.f" "SPHEMB.f" "MACNXS.f" "PIJABC.f" "READEU.f" "PSPFIL.f" "DEPLIT.f" "MOCDDFS.f" "LIBTR1.f" "MOCSCET.f" "NXTQLT.f" "CFCFBM.f" "SPHBEL.f" "FSDF.f90" "PSPNXT.f" "XCWROD.f" "BIVSOU.f" "EDIGET.f" "NXTTLC.f" "EDITXS.f" "XELMRG.f" "NXTMCB.f" "NXTPR3.f" "AEXTRT.f" "MCGREC.f" "SPHSNO.f" "SEN.f" "SYB003.f" "PRECISION_AND_KINDS.md9" "LIBPRI.f" "SNDSA.f" "AEXDIR.f" "DMASOU.f" "XHX2D0.f" "SAPCAL.f" "LIBA24.f" "SALT.f" "EDIPXS.f" "SNT1DS.f" "CFCDRV.f" "xsdf.c" "SNFT1C.f" "LIBSEC.f" "B1DIF.f" "MCGASM.f" "SYBRX2.f" "LIBWTE.f" "LIBDI1.f" "LIBXS5.f" "PIJRGL.f" "NXTAGM.f" "FLUGPT.f" "NXTLRS.f" "XELCOR.f" "DUTURN.f" "NXTIND.f" "XELBIN.f" "NXTQLC.f" "SYB31C.f" "SNTT3D.f" "MACRDM.f" "COMTRE.f" "EDIENE.f" "SYB7VO.f" "LIBWET.f" "SENGET.f" "EDIRES.f" "XDRLGS.f" "MCGSCE.f" "XELPSC.f" "MCTCCC.f" "EVOSOL.f" "LIBXS4.f" "LIBLIC.f" "LIBND0.f" "MCGCAL.f" "NXTSGI.f" "MOCDSP.f" "PIJCMP.f" "FLUDB2.f" "MCGDS2E.f" "XHXTRK.f" "XELTSA.f" "NXT.f" "TLMREG.f" "B1SOL.f" "BIVS04.f" "NXTVHT.f" "LIBA21.f" "SYB43C.f" "SYB4T3.f" "XCWHEX.f" "SYBALP.f" "XELLIN.f" "SYBRII.f" "SALGET_FUNS_MOD.md9" "NXTLCY.f" "LIBMAC.f" "g2s_cast.md9" "TRIVA.f" "SYB7TN.f" "PIJRHL.f" "MOCFCF.f" "EVOODE.f" "LIBCON.f" "AEXGNV.f" "LIBDEN.f" "LIBWRI.f" "g2s_segArc.md9" "LIBDI8.f" "LIBEPR.f" "COMCAT.f" "BIVGSO.f" "xsdbops-sdbm.c" "LIBXS3.f" "DREF.f" "EPCRMA.f" "NXTTCG.f" "NXTIRR.f" "LIBDRA.f" "EDIMIC.f" "MCGSCS.f" "XDRNRM.f" "MOCSCAS.f" "LDRGEO.f" "MCGPTS.f" "SYBALS.f" "GEO.f" "FLUBAL.f" "FMTSUD.f" "SYBUQV.f" "MCGDDF.f" "NXTHCL.f" "LIBEAD.f" "BIVS01.f" "XCGGEO.f" "CHAB04.f" "g2s_constUtil.md9" "MCGPT1.f" "EDIALB.f" "LIBXS6.f" "DOORAB.f" "LIB.f" "MCGDS3.f" "XELEQN.f" "AXGDIA.f" "MCGBIC.f" "B1GAMA.f" "SHIDRV.f" "NXTIAA.f" "MOCIK3.f" "NXTTGS.f" "MCTLIB.f" "NXTLCU.f" "XELGPR.f" "MCGDTV.f" "DOORAV.f" "LIBXS1.f" "XDRHT3.f" "SPHSAP.f" "LIBND6.f" "NXTSQD.f" "SNQU02.f" "XCWSRT.f" "PIJAAA.f" "SYBUP0.f" "TRIVSO.f" "MCGDS2A.f" "MCTPTR.f" "COMMIC.f" "g2s_generatingMC.md9" "NXTQPS.f" "NUMERH.f" "NXTSGT.f" "LIBEIR.f" "PNF.f" "LIBEWI.f" "MACPXS.f" "NXTPCC.f" "SYBRX3.f" "XDRCRE.f" "g2s_construire.md9" "XELEDC.f" "SYBRN2.f" "GEOIN1.f" "S2MGET.f" "KDRDRV.f" "MCGPJJ.f" "SAL_GEOMETRY_MOD.md9" "SPH.f" "TRIGSR.f" "EDIMRC.f" "PIJWPR.f" "PIJS2D.f" "BIVGSR.f" "MOCFFA.f" "SYBWIJ.f" "B1HOM.f" "SYBALC.f" "TLMDIR.f" "CPO.f" "SHIDST.f" "SHIRAT.f" "NXTRIS.f" "SNT.f" "NXTFID.f" "SAL_TISO_MOD.md9" "MCGPTV.f" "SNFT1S.f" "g2s_cellulePlaced.md9" "USSIST.f" "EDIDTX.f" "MCGPT2.f" "TLMPNT.f" "MCGFCF.f" "SPHPIJ.f" "SAL_NUMERIC_MOD.md9" "SYB4T2.f" "QIJCMP.f" "SALEND.f90" "FLU2AC.f" "LIBEXT.f" "NXTQAC.f" "USSONE.f" "LIBDI2.f" "CPOISO.f" "INFWAT.f" "MCGFL1.f" "KELSYM.f" "MCGFFAS.f" "USSIT0.f" "NXTQAS.f" "MESHST.f" "SYB005.f" "LIBWSC.f" "MCGPTA.f" "MOCFFIT.f" "AXGXEL.f" "RECT2.f" "SYBT1D.f" "PIJRDG.f" "AXGGEO.f" "LELCRN.f" "MCGFLX.f" "EDIRAT.f" "NXTAVS.f" "BIVGSH.f" "SYB7TC.f" "TRFICF.f" "SYBCP1.f" "XCGBCM.f" "XELLSR.f" "NXTPRA.f" "EDIMRG.f" "CPODRV.f" "EDIHFD.f" "SNFT12.f" "LIBWID.f" "USS.f" "XELCTR.f" "EVODRV.f" "DRESOU.f" "SALTLS.f90" "TRA.f" "FLUFUI.f" "NXTCVM.f" "LIBSUB.f" "NXTRTS.f" "dramod.f90" "FLUBLN.f" "SALTLC.f" "g2s_constType.md9" "sdbm.c" "USSSPH.f" "xsdbops.h" "SYB4TH.f" "XELTRK.f" "SYB33C.f" "LELCHK.f" "SYB4T1.f" "LIBWRE.f" "EVO.f" "LIBECT.f" "B1BETA.f" "MOCSCAT.f" "XELVOL.f" "SYB4TS.f" "FLU.f" "EPCRMD.f" "DOORFV.f" "TRKHEX.f" "INFTR2.f" "SENDRV.f" "LIBDI4.f" "LIBNFI.f" "SNT1DC.f" "XCGDIM.f" "SYB4TR.f" "EXCELP.f" "NXTHUA.f" "TLMRPI.f" "USSEXC.f" "PSPFCD.f" "NXTRPS.f" "SYB4QG.f" "LIBA20.f" "MCGFFI.f" "EPC.f" "MOCSCES.f" "PSPTRK.f" ".directory" "XCWTRK.f" "MOCFFAT.f" "SHISN3.f" "XELTRP.f" "SYB004.f" "XCWREC.f" "g2s_nodes.md9" "FLU2DR.f" "NXTTPO.f" "MCGFFAT.f" "EDIGEO.f" "COMPO.f" "XELPRP.f" "SHI.f" "MCGFLS.f" "MOCDDF.f" "MCGSCAS.f" "TLM.f" "MOCFFI.f" "SAL_GEOMETRY_TYPES.md9" "AXGXCW.f" "LIBMPA.f" "MCGFCA.f" "CHAB02.f" "LIBA26.f" "EDIHFC.f" "SYB4TC.f" "g2s_boundCond.md9" "LIBLEX.f" "PSPXEL.f" "LIBWED.f" "MCGFFIT.f" "SYB7TS.f" "EPCRMS.f" "FLUALB.f" "XELTI2.f" "MCTOUT.f" "MOCDDFT.f" "SYBUP1.f" "S2M.f" "SYB41C.f" "SYB4VO.f" "BIVS05.f" "EDIDST.f" "xsdb-defs.h" "SYBTRK.f" "SYBJJ0.f" "XDRTBH.f" "XCGROD.f" "PSP.f" "MCGFFIS.f" "LIBND1.f" "MOCDS2.f" "MCGDS2.f" "XELGRD.f" "NXTLCA.f" "MCCGA.f" "NXTGMD.f" "B1HXS1.f" "DOORFVR.f" "LIBND3.f" "COMCAL.f" "EDIDEP.f" "MCGACA.f" "SAL_TRAJECTORY_MOD.md9" "LIBENI.f" "XDRHT4.f" "EDIDRV.f" "LIBPTT.f" "PSPRAI.f" "MCTFLX.f" "CPONED.f" "EPCRMV.f" "BIVFSH.f" "SPHCMI.f" "LELCSY.f" "SNFLUX.f" "TRIGSO.f" "MCGDDFS.f" "MCGDS1.f" "MCGFST.f" "PIJD2R.f" "g2s_generateTabSegArc.f90" "USSIN1.f" "DUO004.f" "LIBDI6.f" "LIBENR.f" "XEL3T2.f" "M2T.f" "SPHEQU.f" "LIBCAT.f" "SAP.f" "g2s_celluleBase.md9" "GEOMIX.f" "SYB4T4.f" "CPOMAR.f" "DUO003.f" "TLMPLA.f" "NXTPRR.f" "SPHSN.f" "MACXSR.f" "LIBAPL.f" "CFC.f" "MCTPSP.f" "FMTSUS.f" "LIBADD.f" "NXTIHA.f" "LIBMOM.f" "SYBILA.f" "SYBRXE.f" "SNFT13.f" "SYBJJ1.f" "LIBCOR.f" "READBH.f" "SAPCA2.f" "CFCGET.f" "EDISTA.f" "LIBA22.f" "SYB7QG.f" "DOORPV.f" "INF.f" "DUO006.f" "SAL_TRACKING_TYPES.md9" "PSPLEG.f" "MCGSCR.f" "EVORK.f" "XHX2D1.f" "SAPISO.f" "MACPRM.f" "PIJI2D.f" "LIBDEP.f" "XDRKIN.f" "NXTBRT.f" "EDIBHX.f" "AXGTRS.f" "MCTPIR.f" "NXTXYZ.f" "EPCRPD.f" "NXTVOL.f" "MCGDS6.f" "PIJD2S.f" "SAPFLU.f" "RECT1.f" "SPHMAC.f" "NXTTLS.f" "SNF.f" "MCGFCR.f" "SPHCPO.f" "SAPPAV.f" "LIBA27.f" "MACIXS.f" "PSPXCG.f" "NXTQSS.f" "SPHCMA.f" "XELNTR.f" "LIBWIM.f" "NXTPCA.f" "SYBILP.f" "CHAB.f" "TLMGET.f" "XELDCL.f" "AEXTPA.f" "MCGDS4.f" "NXTTGC.f" "g2s_generatingPS.md9" "SENCNT.f" "XDRTA1.f" "EVOGET.f" "FMT.f" "SYB002.f" "SNSOUR.f" "EVODPL.f" "TRIVAF.f" "SYBUQ0.f" "MOCSCE.f" "SYBILF.f" "LDRASS.f" "DMA.f" "LDRCEL.f" "PIJI3D.f" "DRAGON.f90" "DUO005.f" "SHISN2.f" "PSPGET.f" "EDIGAP.f" "LIBCOV.f" "EDIACT.f" "MCGFCS.f" "SYB4TI.f" "LIBWRG.f" "NXTMCA.f" "CPOLGX.f" "MCGSCET.f" "NXTETH.f" "SALLCA.f90" "SYBHN2.f" "CHAB03.f" "MOCFFAS.f" "DUO002.f" "LIBFQD.f" "MCGABGR.f" "NXTLRH.f" "SYBHTK.f" "NXTEGI.f" "SPHSTO.f" "INFTR1.f" "XELPR3.f" "CPOMIC.f" "XDRHT1.f" "EDIHMX.f" "LIBTE2.f" "XELETR.f" "PNSH.f" "FLUDBV.f" "SALTCG.f" "MCGTRK.f" "SNQU01.f" "SNQU05.f" "AEXCPC.f" "SNGMRE.f" "SYB001.f" "COMARB.f" "SNQU03.f" "NXTETS.f" "CHAB01.f" "XDRTA2.f" "USSSEK.f" "LIBLIB.f" "MCGPTN.f" "LIBA2G.f" "DOORFB3.f" "DUO.f" "USSCOR.f" "SAPGEY.f" "NXTQEW.f" "USSIT2.f" "g2s_g2s.f90" "MCGABG.f" "EXCELT.f" "PSPTCR.f" "SAPFWC.f" "NXTTRM.f" "MCGFFA.f" "g2s_generatingTrack.md9" "LIBA28.f" "SPHGAP.f" "COMGEM.f" "PSPTHR.f" "LIBDI3.f" "XL3SIG.f" "LIBTAB.f" "EPCRMI.f" "LIBND5.f" "SYB7TE.f" "KELMRG.f" "MOCSCA.f" "INFWD4.f" "FMTGET.f" "FLUGPI.f" "AXGSYM.f" "MCGDSCA.f" "ASM.f" "XL3TI3.f" "MCCGT.f" "SHIEQU.f" "MCGDDFT.f" "XELCRN.f" "LIBXS2.f" "SNT1DP.f" "MACWXS.f" "INFDRA.f" "XELCOP.f" "SHIDIL.f" "EVOBLD.f" "MOCCHR.f" "NXTPHT.f" "TLMVPL.f" "SNQU04.f" "EVOKAP.f" "MCGSIG.f" "DUO007.f" "AXGTRN.f" "LIBADJ.f" "LIBEAR.f" "XELCMP.f" "NXTACG.f" "DOORFB2.f" "SNQU06.f" "TRAGRO.f" "MCGSCAT.f" "TRAXS.f" "BIVAA.f" "NXTLDC.f" "SYB7T0.f" "SENCAL.f" "MCTRK.f" "SPHSXS.f" "EVOSAT.f" "DUODRV.f" "LIBDI5.f" "INFNDA.f" "QIJI3D.f" "sdbm.h" "NXTVCC.f" "BIVS02.f" "DUO001.f" "NXTLHT.f" "MACDRV.f" "XELTSW.f" "LIBNOT.f" "NXTLHA.f" "MCTLDP.f" "LIBNRG.f" "NXTPRI.f" "SYB7TR.f" "MCCGF.f" "CPOMAW.f" "BIVS03.f" "COMBIB.f" "XELDRV.f" "LIBTR2.f" "XDRLXS.f" "LHXUNH.f" "SYBRTK.f" "MCGCDD.f" "XDDCOM.f" "MCGSCA.f" "BIVFSO.f" "PSPCOL.f" "M2TDRV.f" "SYB7TW.f" "SYBPRX.f" "LIBWD4.f" "SYBILT.f" "NXTVCA.f" "EDI.f" "SPHSCO.f" "LIBWRP.f" "COMGEP.f" "MCGPTF.f" "MCGMRE.f" "SPHTRI.f" "NXTTPS.f" "MCT.f" "NXTRCS.f" "LIBPTW.f" "LIBINP.f" "SNTRK.f" "../" "./")
+
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/Dragon/" (23323 64107 743350 724000) "../" "data/" "bin/" "src/" "Linux_x86_64/" "lib/" "./" "rdragon")
+
+ ("/home/user01/dragon/dragon.v.5/Version5_beta_ev3/" (22837 27622 403412 461000) "../" "Utilib/" "Dragon/" "Donjon/" "Trivac/" "doc/" "Ganlib/" "Octave/" "readme" "script/" "Yacs++/" "./" "Skin++/" "Njoy99/")
+
+ ("/home/user01/dragon/dragon.v.5/" (22807 9412 914815 270000) "libraries/" "../" "Version5_beta_ev3/" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/pencil_wise/" (23579 45623 397645 106000) "gnuplot_script" "residuals.eps" "../" "FoamRun" "gnuplottest" "pencil_wise.unv" "constant/" "EnSight/" "Temperature_Evolution_With_Time.eps" "system/" "0/" "gnuplot_T" "pencil_wise.foam" "log" "logs/" "postProcessing/" "2/" "multiplot.eps" "dynamicCode/" "./")
+
+ ("/home/user01/dragon/Version5_beta_ev801/Dragon/data/twlup_proc/" (22709 34201 0 0) "TCWU09.c2m" "TCWU01.c2m" "TCWU07.c2m" "TCWU14.c2m" "../" "TCWU03.c2m" "TCWU02.c2m" "TCWU06.c2m" "TCWU05.c2m" "TCWU31.c2m" "TCWU15.c2m" "TCWU08.c2m" "TCWU17Lib.c2m" "TCWU10.c2m" "TCWU05Lib.c2m" "TCWU41.c2m" "TCWU04.c2m" "TCWU13.c2m" "TCWU12.c2m" "TCWU17.c2m" "TCWU11.c2m" "./" "TCWU32.c2m")
+
+ ("/home/user01/dragon/Version5_beta_ev801/Dragon/data/" (22709 34201 0 0) "rep900_mco.save" "tdraglib.access" "CFC-CELL.x2m" "trowland_shem.access" "trowland_shem361.x2m" "tmatxs7a.access" "twimsE.x2m" "rep900_mco_proc/" "twlup.x2m" "rep900_het_gff.save" "a2b_drglib_jeff3p1.save" "RegtestLZC_mccg.access" "a2b_drglib_endfb7.save" "UOX_TBH_eighth_1level_proc/" "rep900_sap.access" "a2b_drglib.x2m" "twlup.save" "iaea2d.x2m" "assertS.c2m" "../" "rep900_mco.x2m" "tjeff31gx_proc/" "tmatxs7a_proc/" "te6wlib_proc/" "rep900_sap.save" "UOX_TBH_eighth_1level.access" "tapollo2_proc/" "a2b_drglib_endfb7.x2m" "CFC-CELL.access" "tdraglib.x2m" "rep900_het_gff.access" "C2D20.x2m" "a2b_drglib_endfb7.access" "proc_CNG/" "twimsE.access" "a2b_drglib.save" "trowland_shem295_proc/" "tmatxs7a.x2m" "tapollo2.access" "trowland.x2m" "g2s_prestation.x2m" "testDuo.access" "uo2_evo_xsm.x2m" "CFC-CELL.save" "testDuo_B1.x2m" "twimsE_proc/" "te6wlib.x2m" "g2s_prestation_proc/" "uo2_evo_xsm.access" "assertV.c2m" "a2b_drglib_jeff3p1.x2m" "trowland_shem361.access" "trowland_shem361_proc/" "UOX_TBH_eighth_1level.x2m" "te6wlib.access" "rep900_het_gff_proc/" "sens.save" "trowland_shem295.access" "CFC-CELL_proc/" "tapollo1.access" "C2D20.access" "twinfrith.access" "trowland.access" "sens.x2m" "tmacro.x2m" "salmacro.x2m" "rep900_mco.access" "testDuo.x2m" "testDuo_B1.access" "proc_LZC/" "a2b_drglib_endfb6.x2m" "twlup_proc/" "g2s_prestation.save" "a2b_drglib_jeff3p1.access" "tdraglib_proc/" "rep900_het_gff.x2m" "tjeff31gx.x2m" "rep900_sap.x2m" "trowland_proc/" "salmacro.access" "tjeff31gx.access" "a2b_drglib.access" "tapollo1.x2m" "a2b_drglib_endfb6.save" "tapollo2.x2m" "tapollo1_proc/" "salmacro_proc/" "./" "trowland_shem_proc/" "twlup.access" "RegtestCNG_mccg.x2m" "tdraglib.save" "trowland_shem295.x2m" "C2D20_proc/" "a2b_drglib_endfb6.access" "RegtestLZC_mccg.x2m" "twinfrith_proc/" "RegtestCNG_mccg.access" "twinfrith.x2m" "trowland_shem.x2m" "tmacro_proc/")
+
+ ("/home/user01/dragon/Version5_beta_ev801/Dragon/" (22709 34201 0 0) "../" "data/" "src/" "./" "rdragon")
+
+ ("/home/user01/dragon/Version5_beta_ev801/" (22709 34201 0 0) "../" "Utilib/" "Dragon/" "Donjon/" "Trivac/" "doc/" "Ganlib/" "Octave/" "readme" "script/" "Yacs++/" "./" "Skin++/")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/lumped_fuel/" (23579 45110 827417 726000) "gnuplot_script" "residuals.eps" "../" "FoamRun" "gnuplottest" "phwr540_37.unv" "constant/" "EnSight/" "Temperature_Evolution_With_Time.eps" "system/" "0/" "gnuplot_T" "log" "logs/" "postProcessing/" "lumped_fuel.unv" "2/" "Mesh_1.unv" "multiplot.eps" "new_PHWR540.foam" "./")
+
+ ("/home/user01/LATEX/ANS_Annual_Meeting_2019/" (23569 18740 262771 864000) "ANS_annual_meeting-2019.synctex.gz" "ANS_annual_meeting-2019.log" "../" "residual1.png" "sidemesh.png" "ANS_annual_meeting-2019.aux" "t20ms.png" "t3s.png" "residual2.png" "t0s.png" "t1s.png" "auto/" "ANS_annual_meeting-2019.pdf" "anstrans.cls" "sample/" "ANS_annual_meeting-2019.bbl" "t7s.png" "endface.png" "fuel.jpg" "t4s.png" "meshred.png" "ANS_annual_meeting-2019.blg" "t10s.png" "./" "ans.bst" "bibliography.bib" ".gitignore" "meshblack.png" "ANS_annual_meeting-2019.tex" "t5s.png")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/postProcessing/probes/" (23566 375 114194 474000) "../" "0/" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/lumped_fuel/system/" (23577 12559 867605 362000) "fvSchemes" "../" "controlDict" "fvSolution" "sampleDict" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/pencil_wise/system/" (23563 63325 0 0) "fvSchemes" "../" "controlDict" "fvSolution" "sampleDict" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/pencil_wise/constant/" (23578 20129 375264 763000) "../" "transportProperties" "polyMesh/" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/etc/caseDicts/postProcessing/probes/" (23577 11314 284280 789000) "cloud.cfg" "../" "boundaryCloud" "boundaryCloud.cfg" "probes" "internalCloud" "probes.cfg" "./" "probes.original" "internalCloud.cfg")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/pencil_wise/0/" (23562 44895 0 0) "T" "U" "../" "cellToRegion" "p" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/" (23578 18688 709197 320000) "lumped_fuel/" "cavity/" "../" "Allclean" "new_PHWR540/" "Allrun" "channelPHWR540/" "pencil_wise/" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/lumped_fuel/constant/polyMesh/" (23577 10039 289004 680000) "boundary" "../" "points" "neighbour" "owner" "sets/" "./" "faces")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/lumped_fuel/constant/" (23577 9123 894025 541000) "../" "transportProperties" "polyMesh/" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/lumped_fuel/0/" (23562 44895 0 0) "T" "U" "../" "cellToRegion" "p" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/postProcessing/" (23563 63631 142188 942000) "../" "probes/" "graphs/" "singleGraph/" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/system/" (23563 63325 73013 694000) "fvSchemes" "../" "controlDict" "fvSolution" "sampleDict" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/postProcessing/singleGraph/0.25/" (23563 62810 538019 95000) "../" "line_T.xy" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/postProcessing/singleGraph/" (23563 62841 621782 582000) "1/" "4/" "6/" "1.25/" "5.75/" "1.75/" "../" "4.25/" "2.25/" "0.5/" "4.75/" "5/" "2.75/" "3.75/" "0.25/" "5.25/" "3/" "1.5/" "2/" "4.5/" "./" "5.5/" "3.5/" "0.75/" "2.5/" "3.25/")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/etc/caseDicts/postProcessing/graphs/" (22531 35489 0 0) "../" "graph.cfg" "singleGraph" "./" "sampleDict.cfg")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/etc/caseDicts/postProcessing/" (22531 35489 0 0) "numerical/" "../" "forces/" "minMax/" "fields/" "solvers/" "probes/" "visualization/" "graphs/" "pressure/" "./" "surfaceRegion/" "flowRate/")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/etc/caseDicts/" (22531 35489 0 0) "surface/" "general/" "../" "meshQualityDict" "solvers/" "foamyHexMeshDict" "setConstraintTypes" "postProcessing/" "./" "mesh/")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/0/" (23562 44895 938993 897000) "T" "U" "../" "cellToRegion" "p" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/etc/" (22531 35489 0 0) "README.org" "templates/" "../" "config.sh/" "controlDict" "codeTemplates/" "config.csh/" "caseDicts/" "cshrc" "./" "cellModels" "bashrc" "thermoData/")
+
+ ("/home/user01/cfwaro/smfollow/html/" (23561 16789 858548 298000) "Simulation_Example_Video-example.html" "jquery.js" "splitbar.png" "dynsections.js" "Fuel-example.html" "classOpenFOAM.html" "../" "tabs.css" "rpds.jpeg" "CTM_Instrumented-example.html" "graph_legend.png" "index.html" "examples.html" "Temperature_Profile_at_Times-example.html" "bdwn.png" "sidemesh.png" "doxygen.png" "t20ms.png" "t3s.png" "form_0.png" "Mesh_Sample_2-example.html" "classGnuplot.html" "t0s.png" "t1s.png" "doc.png" "classParaview.html" "graph_legend.md5" "classPython.html" "classes.html" "sync_off.png" "classVisIt.html" "classParaView.html" "search/" "nav_g.png" "formula.repository" "tab_a.png" "classTRIVENI.html" "tab_s.png" "tab_h.png" "t7s.png" "closed.png" "Mesh_Sample_1-example.html" "endface.png" "nav_f.png" "fuel.jpg" "sync_on.png" "graph_legend.html" "menu.js" "folderclosed.png" "tab_b.png" "t4s.png" "doxygen.css" "open.png" "meshred.png" "nav_h.png" "t10s.png" "annotated.html" "./" "menudata.js" "classSALOME.html" "folderopen.png" "bc_s.png" "Simulation_Example_Video-example1.html" "meshblack.png" "classFortran.html" "t5s.png")
+
+ ("/home/user01/LATEX/ANS_Trans_template_7_3_2018/" (23553 21642 542144 36000) "ANS_annual_meeting-2019.log" "../" "./" "ANS_annual_meeting-2019.tex")
+
+ ("/home/user01/LATEX/ANS_Trans_template_7_3_2018/sample/" (23551 64144 296350 285000) "../" "README.md" "example.pdf" "example_figure.pdf" "example.tex" "./")
+
+ ("/home/user01/LATEX/CFD/CFD_paper/" (23515 2445 449688 517000) "reference.txt" "../" "rpds.jpeg" "e6plot.jpeg" "elsarticle-template-1a-num.spl" "rpds.png" "t3s.png" "t0s.png" "elsarticle-template-1a-num.tex" "t1s.png" "elsarticle-template-1a-num.log" "auto/" "elsarticle-template-1a-num.pdf" "residual.png" "elsarticle-template-1a-num.out" "foamscheme.png" "elsarticle-template-1a-num.aux" "elsarticle-template-1a-num.blg" "tempprofile.png" "elsarticle-template-1a-num.synctex.gz" "meshred.png" "e6plot.png" "referencesCFD.bib" "./" "elsarticle-template-1a-num.bbl" "meshblack.png" "salome.png" "t5s.png")
+
+ ("/home/user01/LATEX/FCT_NET/" (23528 14173 752455 441000) "references.txt" "FPSTfccal100FP.png" "../" "FCCAL-NET.aux" "references.bib" "referencesFCCAL.bib" "compuo2puo.png" "auto/" "fig4.png" "FCCAL-NET.tex" "thuo2.png" "FCTfccal50FP.png" "triveni100FP.png" "FCCAL-NET.blg" "FCCAL-NET.pdf" "FCCAL-NET.bbl" "FPSTfccal50FP.png" "FCTfccal100FP.png" "FCCAL-NET.synctex.gz" "fig5.png" "avgCoolantFCCAL50FP.png" "./" "FCCAL-NET.spl" "FCCAL-NET.out" "FCCAL100FP.png" "FCCAL-NET.log" "avgCoolantTRIVENI50FP.png" "comp.png")
+
+ ("/home/user01/LATEX/TRIVENI-OpenFOAM-NET/" (23528 19772 468916 848000) "TRIVENI-OpenFOAM-NET.blg" "reference.txt" "TRIVENI-OpenFOAM-NET.aux" "../" "rpds.jpeg" "e6plot.jpeg" "t3s.png" "TRIVENI-OpenFOAM-NET.bbl" "t0s.png" "t1s.png" "auto/" "TRIVENI-OpenFOAM-NET.tex" "TRIVENI-OpenFOAM-NET.out" "TRIVENI-OpenFOAM-NET.pdf" "residual.png" "TRIVENI-OpenFOAM-NET.synctex.gz" "foamscheme.png" "TRIVENI-OpenFOAM-NET.spl" "tempprofile.png" "meshred.png" "referencesCFD.bib" "./" "meshblack.png" "TRIVENI-OpenFOAM-NET.log" "salome.png" "t5s.png")
+
+ ("/home/user01/OpenFOAM/MyCodes/c++/python/" (23548 8255 613995 903000) "presentation.html" "file_rename.py" "../" "ythtml.py" "temp_plot_mat_anaconda.py" "style.css" "temp_plot_gnu.py" ".git/" "auto/" "port_scanner" "rsyncGUI.py" ".directory" "twilio/" "presentation.org" "Fsplit.py" "way2sms.py" "hello.py" ".vscode/" "temp_plot_mat.py" "rsync_server" "inReadT.py" "ytprinthtml.py" "./" "presentation.tex" "__pycache__/" "npcil_logo.gif" "tape5_gui.py")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/constant/polyMesh/" (23548 4014 428133 662000) "boundary" "../" "points" "neighbour" "owner" "./" "faces")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/cavityTemp/new_PHWR540/constant/" (23545 23344 472662 931000) "../" "transportProperties" "polyMesh/" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/icoFoamTemp/" (23410 63871 838244 759000) "../" "icoFoamTemp.C" "Make/" "cavityTemp/" "./" "createFields.H")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/mySolvers/" (23167 61844 780161 523000) "../" "icoFoamTemp/" "myBuoyantBoussinesqSimpleFoam/" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/solvers/" (22903 33152 906938 141000) "discreteMethods/" "compressible/" "combustion/" "mySolvers/" "stressAnalysis/" "../" "heatTransfer/" "basic/" "incompressible/" "lagrangian/" "multiphase/" "DNS/" "electromagnetics/" "financial/" "./")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/applications/" (22531 35489 0 0) "Allwmake" "../" "utilities/" "solvers/" "./" "test/")
+
+ ("/home/user01/OpenFOAM/OpenFOAM-4.1/" (22903 30171 630109 122000) "README.org" "Allwmake" "../" "platforms/" "applications/" "bin/" "wmake/" "tutorials/" "src/" "doc/" "etc/" "COPYING" "./" ".gitignore")
+
+ ("/home/user01/LATEX/FCT_paper/" (23525 11493 154337 433000) "FCCAL_NET_UNEDITED/" "FPSTfccal100FP.png" "extra/" "../" "referencesFCCAL.bib" "compuo2puo.png" ".part" "auto/" "fig4.png" "thuo2.png" "FCTfccal50FP.png" "triveni100FP.png" "FPSTfccal50FP.png" "FCTfccal100FP.png" "elsarticle/" "elsarticle_dummy/" "fig5.png" "avgCoolantFCCAL50FP.png" "./" "elsarticle-template-1-NET.tex" "FCCAL100FP.png" "avgCoolantTRIVENI50FP.png" "comp.png")
+
+ ("/home/user01/RaspberryPi/" (23515 5050 485274 220000) "../" ".git/" "messageAPI.zip" "RPI_TV.zip" "./" "readme.md" "GPIO_actuator.py")
+
+ ("/home/user01/test/" (23515 4336 968898 296000) "../" ".git/" "messageAPI.zip" "RPI_TV.zip" "./" "readme.md")
+
+ ("/home/user01/LATEX/CFD_paper/" (23515 2445 449688 517000) "reference.txt" "../" "rpds.jpeg" "e6plot.jpeg" "elsarticle-template-1a-num.spl" "rpds.png" "t3s.png" "t0s.png" "elsarticle-template-1a-num.tex" "t1s.png" "elsarticle-template-1a-num.log" "auto/" "elsarticle-template-1a-num.pdf" "residual.png" "elsarticle-template-1a-num.out" "foamscheme.png" "elsarticle-template-1a-num.aux" "elsarticle-template-1a-num.blg" "tempprofile.png" "elsarticle-template-1a-num.synctex.gz" "meshred.png" "e6plot.png" "referencesCFD.bib" "./" "elsarticle-template-1a-num.bbl" "meshblack.png" "salome.png" "t5s.png")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

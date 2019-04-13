@@ -1,0 +1,103 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Apr 13 23:09:31 2019
+;; Desktop file format version 208
+;; Emacs version 25.1.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23730 7891 803560 76000) (desktop . "208") "user01@24Online" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#839496") (background-color . "#002b36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground . "#657b83") (scroll-bar-background . "#657b83") (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#839496") (environment) (powerline-cache) (frameset--id . "D2A6-C9CF-829A-FBCA") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (visibility . t) (display . ":0") (explicit-name) (height . 51) (width . 188) (left . 1920) (top . 24)) ((min-height . 4) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 14) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 80) (min-pixel-width . 200) (min-pixel-height-ignore . 80) (min-pixel-width-ignore . 140) (min-pixel-height-safe . 20) (min-pixel-width-safe . 40)) hc (pixel-width . 1920) (pixel-height . 1008) (total-width . 192) (total-height . 50) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1620) (pixel-height . 1008) (total-width . 162) (total-height . 50) (normal-height . 1.0) (normal-width . 0.84375) (buffer "paren.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 1034) (start . 1))) (leaf (last . t) (pixel-width . 300) (pixel-height . 1008) (total-width . 30) (total-height . 50) (normal-height . 1.0) (normal-width . 0.15625) (buffer " *MINIMAP*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 1015) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist '((48 . ";; ################################################################")))
+(setq file-name-history '("/home/user01/.emacs" "/home/user01/.emacs.d/customization/minimap.el" "/home/user01/.emacs.d/customization/clang.el" "/home/user01/.emacs.d/customization/browser.el" "/home/user01/.emacs.d/customization/myDef.el" "/home/user01/.emacs.d/customization/keybindings.el" "~/.emacs.d/desktop/" "/home/user01/.emacs" "/home/user01/.emacs.d/customization/paren.el" "~/.emacs.d/customization/paren.el" "/home/user01/.emacs" "/home/user01/.emacs.d/customization/myDef.el" "/home/user01/.emacs.d/customization/keybindings.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/user01/.emacs.d/customization/paren.el"
+  "paren.el"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode whitespace-mode global-whitespace-mode subword-mode linum-mode auto-complete-mode which-key-mode beacon-mode override-global-mode yas-minor-mode minimap-mode)
+  1034
+  '(989 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring (879 1 1015 1073 870 1015))))
+
+(desktop-create-buffer 208
+  "/home/user01/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode whitespace-mode global-whitespace-mode subword-mode linum-mode auto-complete-mode which-key-mode beacon-mode override-global-mode yas-minor-mode minimap-mode)
+  4829
+  '(3987 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (652 652 652 652 652 652 652 3986 4546 4564 4558))))
+
+(desktop-create-buffer 208
+  "/home/user01/.emacs.d/customization/minimap.el"
+  "minimap.el"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode whitespace-mode global-whitespace-mode subword-mode linum-mode auto-complete-mode which-key-mode beacon-mode override-global-mode yas-minor-mode minimap-mode)
+  819
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/user01/.emacs.d/customization/myDef.el"
+  "myDef.el"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode whitespace-mode global-whitespace-mode subword-mode linum-mode auto-complete-mode which-key-mode beacon-mode override-global-mode yas-minor-mode minimap-mode)
+  840
+  '(1093 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring (952 977 876 872))))
+
+(desktop-create-buffer 208
+  "/home/user01/.emacs.d/customization/clang.el"
+  "clang.el"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode whitespace-mode global-whitespace-mode subword-mode linum-mode auto-complete-mode which-key-mode beacon-mode override-global-mode yas-minor-mode minimap-mode)
+  809
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/user01/.emacs.d/customization/browser.el"
+  "browser.el"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode whitespace-mode global-whitespace-mode subword-mode linum-mode auto-complete-mode which-key-mode beacon-mode override-global-mode yas-minor-mode minimap-mode)
+  408
+  '(74 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/user01/.emacs.d/customization/keybindings.el"
+  "keybindings.el"
+  'emacs-lisp-mode
+  '(abbrev-mode visual-line-mode whitespace-mode global-whitespace-mode subword-mode linum-mode auto-complete-mode which-key-mode beacon-mode override-global-mode yas-minor-mode minimap-mode)
+  1248
+  '(1248 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
