@@ -12,8 +12,7 @@ Install Debian-9 [debian-9](https://cdimage.debian.org/debian-cd/current/amd64/i
 
 dotfiles for i3,emacs,vim,bash
 
-## NOTE:- EMACS init file is deprecated and it is advisable to use
-   .emacs customization file.
+## NOTE:- EMACS init file is deprecated and it is advisable to use .emacs customization file.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
