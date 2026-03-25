@@ -1,11 +1,19 @@
 ;;############################################################################
-(org-babel-load-file(expand-file-name "~/.emacs.d/customization/config.org"))
+(org-babel-load-file (expand-file-name "customization/config.org" user-emacs-directory))
 ;;############################################################################;
+
+;; Use portable paths instead of hardcoded home directories.
+(defconst my/customization-dir (expand-file-name "customization" user-emacs-directory))
+(defun my/load-customization-file (file)
+  "Load FILE from `my/customization-dir` when it exists."
+  (let ((full-path (expand-file-name file my/customization-dir)))
+    (when (file-readable-p full-path)
+      (load-file full-path))))
 ;;FileTree in Emacs;
 ;############################################################################
-(add-to-list 'load-path "/home/user01/.emacs.d/neotree")
-(require 'neotree)
-(global-set-key [f2] 'neotree-toggle)
+(add-to-list 'load-path (expand-file-name "neotree" user-emacs-directory))
+(when (require 'neotree nil t)
+  (global-set-key [f2] 'neotree-toggle))
 ;;############################################################################
 (cua-mode 1)
 (menu-bar-mode -1)
@@ -20,25 +28,16 @@
 ;;abbrev-mode(making word abbreviaitons at startup)
 ;;############################################################################
 (setq-default abbrev-mode t)
-(read-abbrev-file "~/.emacs.d/customization/.abbrev_defs")
+(read-abbrev-file (expand-file-name "customization/.abbrev_defs" user-emacs-directory))
 (setq save-abbrevs t)
 ;;############################################################################
 ;;Load and add MELPA, ELPA, ORG-MODE
 ;;############################################################################
 (require 'package)
-(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
-                    (not (gnutls-available-p))))
-       (proto (if no-ssl "http" "https")))
-  ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
-  (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
-  ;;(add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
-  (when (< emacs-major-version 24)
-    ;; For important compatibility libraries like cl-lib
-    (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/"))))
-  (add-to-list 'package-archives
-	       '("marmalade" . "http://marmalade-repo.org/packages/") t)
-  )
-
+(setq package-archives
+      '(("gnu" . "https://elpa.gnu.org/packages/")
+        ("nongnu" . "https://elpa.nongnu.org/nongnu/")
+        ("melpa" . "https://melpa.org/packages/")))
 (package-initialize)
 ;; ################################################################
 ;; Package utility for use-package,which-key,beacon,dashboard etc.
@@ -93,19 +92,19 @@
 ;; clang formatting for c and c++ codes
 ;; ################################################################
 (require 'clang-format)
-(load-file "/home/user01/.emacs.d/customization/clang.el")
+(my/load-customization-file "clang.el")
 ;;############################################################################
 ;; turn on visible-bell
 ;;############################################################################
 (setq visible-bell 1)
 ;; ################################################################
 ;;(require 'keybindings.el)			
-(load-file "/home/user01/.emacs.d/customization/keybindings.el")
+(my/load-customization-file "keybindings.el")
 ;;############################################################################
 ;; turn on parenthesis highlighting
 ;;############################################################################
 (require 'paren)
-(load-file "/home/user01/.emacs.d/customization/paren.el")
+(my/load-customization-file "paren.el")
 ;;############################################################################
 ;; cause new tabs to open in new frame/window
 ;;############################################################################
@@ -115,19 +114,19 @@
 ;; ################################################################
 (require 'engine-mode)
 ;;(require 'browser.el)
-(load-file "/home/user01/.emacs.d/customization/browser.el")
+(my/load-customization-file "browser.el")
 ;; ################################################################
 ;; themes file load setting
 ;; ################################################################
-(load-file "/home/user01/.emacs.d/customization/themes.el")
+(my/load-customization-file "themes.el")
 ;; ################################################################
 ;; autocomplete settings file load
 ;; ################################################################
-(load-file "/home/user01/.emacs.d/customization/autocomplete.el")
+(my/load-customization-file "autocomplete.el")
 ;; ################################################################
 ;; header for new file load
 ;; ################################################################
-(load-file "/home/user01/.emacs.d/customization/header.el")
+(my/load-customization-file "header.el")
 ;; (require 'header2)
 ;; (autoload 'auto-make-header "header2")
 ;; (add-hook 'emacs-lisp-mode-hook 'auto-make-header)
@@ -136,16 +135,16 @@
 ;;###################################################################
 ;; LATEX/AUCTEX settings for emacs
 ;;###################################################################
-(load-file "/home/user01/.emacs.d/customization/latexmode.el")
+(my/load-customization-file "latexmode.el")
 ;;###################################################################
 ;; desktop-save-mode yes/no & cursor save mode
 ;; Automatically save and restore sessions
 ;;###################################################################
-(load-file "/home/user01/.emacs.d/customization/desktop.el")
+(my/load-customization-file "desktop.el")
 ;;###################################################################
 ;; minimap mode settings file
 ;;###################################################################
-(load-file "/home/user01/.emacs.d/customization/minimap.el")
+(my/load-customization-file "minimap.el")
 ;; ;; ################################################################
 ;; multiple cursor
 ;; ################################################################
