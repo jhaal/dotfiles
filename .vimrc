@@ -12,6 +12,9 @@ let vimplug_exists=expand('~/.vim/autoload/plug.vim')
 let g:vim_bootstrap_langs = "c,html,python"
 let g:vim_bootstrap_editor = "vim"				" nvim or vim
 
+" NOTE: Keep plugin list on actively maintained repositories when available.
+" This reduces breakage from archived orgs and improves long-term compatibility.
+
 if !filereadable(vimplug_exists)
   if !executable("curl")
     echoerr "You have to install curl or first install vim-plug yourself!"
@@ -31,7 +34,7 @@ call plug#begin(expand('~/.vim/plugged'))
 "*****************************************************************************
 "" Plug install packages
 "*****************************************************************************
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
@@ -42,8 +45,8 @@ Plug 'vim-scripts/grep.vim'
 Plug 'vim-scripts/CSApprox'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'Raimondi/delimitMate'
-Plug 'majutsushi/tagbar'
-Plug 'scrooloose/syntastic'
+Plug 'preservim/tagbar'
+Plug 'vim-syntastic/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
@@ -55,8 +58,8 @@ else
   Plug 'junegunn/fzf.vim'
 endif
 let g:make = 'gmake'
-if exists('make')
-        let g:make = 'make'
+if executable('make')
+  let g:make = 'make'
 endif
 Plug 'Shougo/vimproc.vim', {'do': g:make}
 
@@ -178,10 +181,13 @@ set autoindent
 "https://www.youtube.com/watch?v=XA2WjJbmmoM: in addition to NERDTree utility.
 set path+=**
 "" File header utility for python,c,cpp,fortran files
-au BufNewFile *.py  0r /home/user01/.vim/plugged/headerpy.template
-au BufNewFile *.c   0r /home/user01/.vim/plugged/headerc.template
-au BufNewFile *.cpp 0r /home/user01/.vim/plugged/headerc.template
-au BufNewFile *.f90 0r /home/user01/.vim/plugged/headerfort.template
+augroup vimrc-file-templates
+  autocmd!
+  autocmd BufNewFile *.py  0r ~/.vim/plugged/headerpy.template
+  autocmd BufNewFile *.c   0r ~/.vim/plugged/headerc.template
+  autocmd BufNewFile *.cpp 0r ~/.vim/plugged/headerc.template
+  autocmd BufNewFile *.f90 0r ~/.vim/plugged/headerfort.template
+augroup END
 "" Remember that these commands may work only if ctags is installed!!
 " It HIGHLIGHTS for file autocompletion
 " ^x^n for JUST this file
@@ -212,6 +218,9 @@ if !exists('g:not_finish_vimplug')
 endif
 
 set mousemodel=popup
+if has('termguicolors')
+  set termguicolors
+endif
 set t_Co=256
 set guioptions=egmrti
 set gfn=Inconsolata\ Medium\ 13
@@ -429,7 +438,7 @@ endif
 
 cnoremap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 nnoremap <silent> <leader>b :Buffers<CR>
-nnoremap <silent> <leader>e :FZF -m<CR>
+nnoremap <silent> <leader>ff :FZF -m<CR>
 
 " snippets
 let g:UltiSnipsExpandTrigger="<tab>"

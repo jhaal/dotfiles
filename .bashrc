@@ -120,29 +120,51 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# OpenFOAM Version - 2.4.0 source call
-#alias of240='source /home/user01/OpenFOAM/OpenFOAM-2.4.0/etc/bashrc $FOAM_SETTINGS'
-#OpenFOAM Version - 4.1 source call 
-alias of41='source /home/user01/OpenFOAM/OpenFOAM-4.1/etc/bashrc $FOAM_SETTINGS'
+# ------------------------------
+# Optional toolchain initialization
+# ------------------------------
+# These environment hooks are loaded only when the corresponding software is
+# installed, which keeps startup fast and avoids errors on machines that do not
+# provide these stacks.
 
-# Intel FORTRAN - 2017 Compiler environment for LINUX for 64bit
-PATH="$PATH":/opt/intel/compilers_and_libraries_2017.4.196/linux/mpi/intel64/bin
-source /opt/intel/impi/2017.3.196/intel64/bin/mpivars.sh intel64 
-source /opt/intel/bin/compilervars.sh intel64 
-source /opt/intel/bin/ifortvars.sh intel64
-# added by Anaconda3 4.4.0 installer
-export PATH="/home/user01/anaconda3/bin:$PATH"
-# added by Anaconda2 4.4.0 installer
-export PATH="/home/user01/anaconda2/bin:$PATH"
+source_if_exists() {
+  # shellcheck disable=SC1090
+  local file_path="$1"
+  shift
+  [ -r "$file_path" ] && . "$file_path" "$@"
+}
 
-#openmpi path specification
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/openmpi/lib/
+add_path_if_dir() {
+  [ -d "$1" ] && PATH="$1:$PATH"
+}
 
-# PGI Compiler options
-PGI=/opt/pgi;
-PATH=/opt/pgi/linux86-64/17.10/bin:$PATH;
-MANPATH=$MANPATH:/opt/pgi/linux86-64/17.10/man;
-LM_LICENSE_FILE=$LM_LICENSE_FILE:/opt/pgi/license.dat;
+# OpenFOAM (example alias for a local installation)
+[ -r "$HOME/OpenFOAM/OpenFOAM-4.1/etc/bashrc" ] &&   alias of41='source "$HOME/OpenFOAM/OpenFOAM-4.1/etc/bashrc" "$FOAM_SETTINGS"'
 
-neofetch
+# Intel toolchain
+add_path_if_dir '/opt/intel/compilers_and_libraries_2017.4.196/linux/mpi/intel64/bin'
+source_if_exists '/opt/intel/impi/2017.3.196/intel64/bin/mpivars.sh' intel64
+source_if_exists '/opt/intel/bin/compilervars.sh' intel64
+source_if_exists '/opt/intel/bin/ifortvars.sh' intel64
+
+# Conda installations (load if present)
+add_path_if_dir "$HOME/anaconda3/bin"
+add_path_if_dir "$HOME/anaconda2/bin"
+
+# OpenMPI runtime libraries
+[ -d '/usr/lib/x86_64-linux-gnu/openmpi/lib/' ] &&   LD_LIBRARY_PATH="${LD_LIBRARY_PATH:+$LD_LIBRARY_PATH:}/usr/lib/x86_64-linux-gnu/openmpi/lib/"
+
+# PGI / NVIDIA HPC SDK (legacy layout)
+[ -d '/opt/pgi/linux86-64/17.10/bin' ] && PATH="/opt/pgi/linux86-64/17.10/bin:$PATH"
+[ -d '/opt/pgi/linux86-64/17.10/man' ] && MANPATH="${MANPATH:+$MANPATH:}/opt/pgi/linux86-64/17.10/man"
+[ -f '/opt/pgi/license.dat' ] && LM_LICENSE_FILE="${LM_LICENSE_FILE:+$LM_LICENSE_FILE:}/opt/pgi/license.dat"
+
+export PATH
+export LD_LIBRARY_PATH
+export MANPATH
+export LM_LICENSE_FILE
+
+# Optional startup tools
+command -v neofetch >/dev/null 2>&1 && neofetch
 bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
